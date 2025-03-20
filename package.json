@@ -1,0 +1,24 @@
+{
+  "name": "langchain-pg-vector-aas",
+  "version": "1.0.0",
+  "description": "This is a sample server written in js to complement @langchain/core to interact with the postgres database through a service instead of directly connecting",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justindevs/langchain-pg-vector-aaS.git"
+  },
+  "author": "Justin Gottschalk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/justindevs/langchain-pg-vector-aaS/issues"
+  },
+  "homepage": "https://github.com/justindevs/langchain-pg-vector-aaS#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "sequelize": "^6.37.6"
+  }
+}
